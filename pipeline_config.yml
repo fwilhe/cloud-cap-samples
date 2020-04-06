@@ -39,9 +39,9 @@ stages:
 #    nonErpDestinations:
 #      - 'myCustomDestination'
 
-#   productionDeployment:
-#     cfTargets:
-#       - org: 'myOrg'
-#         space: 'mySpace'
-#         apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-#         credentialsId: 'cf-deploy-sap'
+  productionDeployment:
+    cfTargets:
+      - org: 'myOrg'
+        space: 'mySpace'
+        apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+        credentialsId: 'cf-deploy-sap'
