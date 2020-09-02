@@ -21,7 +21,7 @@
 
 ### General project setup
 general:
-  productiveBranch: 'openSAP-week4-unit4'
+  productiveBranch: 'test-deploy'
 
 ### Step-specific configuration
 steps:
