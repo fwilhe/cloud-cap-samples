@@ -15,5 +15,5 @@ jobs:
         uses: SAP/project-piper-action@master
         with:
           command: npmExecuteLint
-      - run: npm audit
+      - run: echo npm audit && sleep 2
       - run: echo simulate prod deploy && sleep 90
