@@ -41,7 +41,7 @@ stages:
 
   productionDeployment:
     cfTargets:
-      - org: 'myOrg'
-        space: 'mySpace'
+      - org: '55f8413dtrial'
+        space: 'dev'
         apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
         credentialsId: 'cf-deploy-sap'
